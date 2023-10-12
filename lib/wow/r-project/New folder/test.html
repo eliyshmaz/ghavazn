@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز مقالات</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-section {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.article-section h2 {
+    margin-top: 0;
+}
+
+.article-section p {
+    margin: 0;
+}
+
+    </style>
+<body>
+    <header>
+        <h1>مرکز مقالات</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="کلمه کلیدی را وارد کنید">
+        </div>
+    </header>
+    <main>
+        <section class="article-section">
+            <h2>خورشت الو</h2>
+            <p>محتوای مقاله 1</p>
+        </section>
+        <section class="article-section">
+            <h2>خورشت ماست</h2>
+            <p>محتوای مقاله 2</p>
+        </section>
+        <section class="article-section">
+            <h2>مقاله 3</h2>
+            <p>محتوای مقاله 3</p>
+        </section>
+        <!-- مقاله 4 جدید -->
+        <section class="article-section">
+            <h2>مقاله 4</h2>
+            <p>محتوای مقاله 4</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
